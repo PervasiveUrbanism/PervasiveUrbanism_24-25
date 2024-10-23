@@ -9,7 +9,7 @@ Arduino is an open-source electronics platform that allows users to program micr
 
 Above the bar “Arduino” in Ivrea where the founders used to hang out. 
 
-![alt text](Skills 1 - Day 1 Arduino Coding\images\FirstArduino.jpg)
+![alt text](...\images\FirstArduino.jpg)
 
 The image on the shows the first Arduino. 
 
