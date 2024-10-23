@@ -1,15 +1,15 @@
 
 
-![](Arduino_Logo.svg.png)
+![](Skills 1 - Day 1 Arduino Coding\images\Arduino_Logo.svg.png)
 # Introduction to Arduino
 ## What is Arduino, where does it come from?
 Arduino is an open-source electronics platform that allows users to program microcontrollers. It was developed in 2003 at the Interaction Design Institute Ivrea (IDII) in Ivrea, Italy by Massimo Banzi. From the outset, it has been developed as an open-source language that allows easy programming of low-cost microprocessors. This proved to be remarkably successful, and Arduino managed to establish itself as one of the main languages to program microprocessors and for easy prototyping.
 
-![alt text](images\BarArduino.jpg)
+![alt text](Skills 1 - Day 1 Arduino Coding\images\BarArduino.jpg)
 
 Above the bar “Arduino” in Ivrea where the founders used to hang out. 
 
-![alt text](images\FirstArduino.jpg)
+![alt text](Skills 1 - Day 1 Arduino Coding\images\FirstArduino.jpg)
 
 The image on the shows the first Arduino. 
 
