@@ -3,15 +3,15 @@
 ## Dates
 | Nr   |           Date|                     Module|                                 Topic|                Time|      Location|
 |-----:|---------------| --------------------------|--------------------------------------|--------------------|--------------|
-|     1|     05.12.2023|            Hacking the IoT|                     Coding in Arduino|      13:00 - 18:00 | Gordon Street|
-|     2|     05.12.2023|            Hacking the IoT|           Building Sensor & Actuators|      13:00 - 18:00 | Gordon Street|
-|     3|     05.12.2023|            Hacking the IoT| Network Protocols, Python and DataVis|      13:00 - 18:00 | Gordon Street|
-|     4|     05.12.2023| Representing city dynamics|          2d Datavis in Rhino and vvvv|      13:00 - 18:00 | Gordon Street|
-|     5|     05.12.2023| Representing city dynamics|                               Arduino|      13:00 - 18:00 | Gordon Street|
-|     6|     05.12.2023| Representing city dynamics|                      Realtime Datavis|      13:00 - 18:00 | Gordon Street|
-|     7|     05.12.2023|        Datamining the city|          2d Datavis in Rhino and vvvv|      13:00 - 18:00 | Gordon Street|
-|     8|     05.12.2023|        Datamining the city|                               Arduino|      13:00 - 18:00 | Gordon Street|
-|     9|     05.12.2023|        Datamining the city|                      Realtime Datavis|      13:00 - 18:00 | Gordon Street|
+|     1|     29.10.2024|            Hacking the IoT|                     Coding in Arduino|      09:30 - 12:30 | Gordon Street|
+|     2|            tbc|            Hacking the IoT|                    Sensor & Actuators|                tbc | Gordon Street|
+|     3|            tbc|            Hacking the IoT| Network Protocols, Python and DataVis|                tbc | Gordon Street|
+|     4|            tbc| Representing city dynamics|                   Creating Pointcouds|                tbc | Gordon Street|
+|     5|            tbc| Representing city dynamics|              Working with Pointclouds|                tbc | Gordon Street|
+|     6|            tbc| Representing city dynamics|                   Rhino & Grasshopper|                tbc | Gordon Street|
+|     7|            tbc|        Datamining the city|                                Python|                tbc | Gordon Street|
+|     8|            tbc|        Datamining the city|           ML Based Sentiment Analysis|                tbc | Gordon Street|
+|     9|            tbc|        Datamining the city|                          Datascraping|                tbc | Gordon Street|
 
 # SKILLS MODULES
 
@@ -33,3 +33,7 @@ We will use this GitHub page for storing and distributing sample codes, links, r
 [B Made](https://www.ucl.ac.uk/bartlett/about/our-locations-and-facilities/b-made-bartlett-workshops) provides access to their laser cutter and printer. For details on file preparation, refer to the [B Made Moodle page](https://moodle.ucl.ac.uk/course/view.php?id=39723&section=0#tabs-tree-start). The model workshop and tools are also available for use after completing an [induction](https://moodle.ucl.ac.uk/course/view.php?id=39723&section=1#tabs-tree-start).
 
 [B Made](https://moodle.ucl.ac.uk/course/view.php?id=39723&section=46#tabs-tree-start) additionally offers rentals for 3D scanners and cameras. A separate induction is required before renting these items. 
+
+# Resources
+
+Next to this page, you wil also find a page with extra [resources](Resources.md).
