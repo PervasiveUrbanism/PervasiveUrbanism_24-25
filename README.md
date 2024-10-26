@@ -4,7 +4,7 @@
 | Nr   |           Date|                     Module|                                 Topic|                Time|      Location|
 |-----:|---------------| --------------------------|--------------------------------------|--------------------|--------------|
 |     1|     29.10.2024|            Hacking the IoT|                     Coding in Arduino|      09:30 - 12:30 | Gordon Street|
-|     2|            tbc|            Hacking the IoT|                    Sensor & Actuators|                tbc | Gordon Street|
+|     2|     29.10.2024|            Hacking the IoT|                    Sensor & Actuators|      13:00 - 17:30 | Gordon Street|
 |     3|            tbc|            Hacking the IoT| Network Protocols, Python and DataVis|                tbc | Gordon Street|
 |     4|            tbc| Representing city dynamics|                   Creating Pointcouds|                tbc | Gordon Street|
 |     5|            tbc| Representing city dynamics|              Working with Pointclouds|                tbc | Gordon Street|
