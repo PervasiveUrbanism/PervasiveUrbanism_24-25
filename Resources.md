@@ -84,6 +84,16 @@ The internet is packed with Python learning resources. The offer of LinkedIn Lea
 - *“Automate the Boring Stuff with Python”* is a beginner-friendly book available for purchase or free [online](https://automatetheboringstuff.com/#toc).  
 - For quick reference, check out [W3Schools Python](https://www.w3schools.com/python/).
 
+## Arduino
+**"Exploring Arduino"** by Jeremy Blum  
+An ideal introduction to Arduino, blending hands-on electronics with programming fundamentals.
+
+**"Programming Arduino: Getting Started with Sketches"** by Simon Monk — Intermediate  
+A fantastic resource for Arduino programming, providing in-depth insights into C language and microcontroller functions. Perfect for those wanting to advance their coding skills in Arduino.
+
+**"Programming Arduino, Next Steps"** by Simon Monk — Advanced  
+This book covers efficient coding techniques to run an Arduino on a single battery for extended periods, utilizing every tool to optimize performance. *Not* particularly relevant for RC15, it’s an outstanding guide (like all of Monk's work) for maximizing Arduino’s capabilities.
+
 ---
 ## 3. Open-Source Data  
 
