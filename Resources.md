@@ -1,22 +1,23 @@
 # Resources and Skills Module: Pervasive Urbanism 2024-25  
 This document provides additional support for the **Skills Module 2024/25**. It is organized into the following sections:
 
-1. **Main Software Packages:**  
+1. [**Main Software Packages:**](#SoftwarePackages)   
    This section details the main software packages required for the Skills Module 2024/25.
 
-2. **Learning Resources:**  
+2. [**Learning Resources:**](#Learning)   
    A summary of online resources available to support your skills.
 
-3. **Open-Source Data:**  
+3. [**Open-Source Data:**](#Data)     
    A collection of links to publicly accessible datasets. 
 
-4. **Optional Software Packages & Web Services:**  
+4. [**Optional Software Packages & Web Services:**](#Extra)    
    This section lists optional software tools that are not covered in the 2024/25 Skills Module.
 
-5. **Arduino Components and Sensors**  
+5. [**Arduino Components and Sensors**](#Sensor)   
    A collection of links to key manufacturers and retailers of Arduino parts and sensors.
 ---
 
+<a name="SoftwarePackages"></a>
 ## 1. Main Software Packages  
 Please download and install the following software:
 
@@ -55,7 +56,7 @@ We will use Python 3.x, which you can download from the official [Python](https:
  -->
 
 ---
-
+<a name="Learning"></a>
 # 2. Learning Resources
 
 ## LinkedIn Learning  
@@ -97,6 +98,7 @@ A fantastic resource for Arduino programming, providing in-depth insights into C
 This book covers efficient coding techniques to run an Arduino on a single battery for extended periods, utilizing every tool to optimize performance. *Not* particularly relevant for RC15, it’s an outstanding guide (like all of Monk's work) for maximizing Arduino’s capabilities.
 
 ---
+<a name="Data"></a>
 ## 3. Open-Source Data  
 
 ### Earth Vector Files  
@@ -149,7 +151,7 @@ The [Planning London Datahub](https://www.london.gov.uk/programmes-strategies/pl
 [TFL Open Data](https://tfl.gov.uk/info-for/open-data-users/our-open-data#on-this-page-10) offers traffic-related data for London, including "Busiest times on trains and in stations" and "Live traffic camera images (CCTV)."
 
 ---
-
+<a name="Extra"></a>
 ## 4. Additional Software Packages and Web Services  
 
 ### QGIS  
@@ -210,7 +212,7 @@ This shows you how you can use [background images in QGIS](https://docs.mapbox.c
 
 
 ---
-
+<a name="Sensor"></a>
 ## 5. Arduino Components and Sensors 
 
 - [Arduino Official Website](https://www.arduino.cc/)
