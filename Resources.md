@@ -13,6 +13,8 @@ This document provides additional support for the **Skills Module 2024/25**. It 
 4. **Optional Software Packages & Web Services:**  
    This section lists optional software tools that are not covered in the 2024/25 Skills Module.
 
+5. **Arduino Components and Sensors**  
+   A collection of links to key manufacturers and retailers of Arduino parts and sensors.
 ---
 
 ## 1. Main Software Packages  
@@ -207,3 +209,14 @@ This shows you how you can use [background images in QGIS](https://docs.mapbox.c
 [Best Time](https://besttime.app/) is an app that gives you the foot traffic at any given location of the world. This is useful if you want to know how busy a certain area is at a certain time. This app has a user interface and an API. There is a free account too.
 
 
+---
+
+## 5. Arduino Components and Sensors 
+
+- [Arduino Official Website](https://www.arduino.cc/)
+- [Sparkfun](https://www.sparkfun.com/)
+- [Seedstudio](https://www.seeedstudio.com)
+- [The Robot Shop](https://uk.robotshop.com/)
+- [The Pi Hut](https://thepihut.com/)
+- [Adafruit](https://www.adafruit.com/)
+- [Piromini](https://shop.pimoroni.com/)

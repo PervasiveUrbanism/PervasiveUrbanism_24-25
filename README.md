@@ -37,3 +37,6 @@ We will use this GitHub page for storing and distributing sample codes, links, r
 # Resources
 
 Next to this page, you wil also find a page with extra [resources](Resources.md).
+
+# YouTube
+You can access the skill recordings on [YouTube](https://www.youtube.com/playlist?list=PL0TJgiFZ0aRLwPoAfxv-mIsKGgSE3zlBg). These videos are unlisted, meaning they won’t appear in search engines and can only be accessed through the link above. 
