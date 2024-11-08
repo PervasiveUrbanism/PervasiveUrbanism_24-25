@@ -222,3 +222,5 @@ This shows you how you can use [background images in QGIS](https://docs.mapbox.c
 - [The Pi Hut](https://thepihut.com/)
 - [Adafruit](https://www.adafruit.com/)
 - [Piromini](https://shop.pimoroni.com/)
+- [DF Robot](https://www.dfrobot.com/)
+- [Lilygo](https://www.lilygo.cc/)
