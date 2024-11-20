@@ -1,0 +1,46 @@
+reporting all LAS header entries:
+  file signature:             'LASF'
+  file source ID:             0
+  global_encoding:            0
+  project ID GUID data 1-4:   00000000-0000-0000-0000-000000000000
+  version major.minor:        1.2
+  system identifier:          ''
+  generating software:        'LASzip DLL 2.4 r0 (150731)'
+  file creation day/year:     44/2016
+  header size:                227
+  offset to point data:       227
+  number var. length records: 0
+  point data format:          0
+  point data record length:   20
+  number of point records:    222406
+  number of points by return: 222406 0 0 0 0
+  scale factor x y z:         0.01 0.01 0.01
+  offset x y z:               -0 -0 -0
+  min x y z:                  531000.00 179000.00 -8.33
+  max x y z:                  532000.00 180000.00 199.91
+LASzip compression (version 2.1r0 c2 50000): POINT10 2
+reporting minimum and maximum for all LAS point record entries ...
+  X            53100000   53200000
+  Y            17900000   18000000
+  Z                -216       8253
+  intensity           1       5100
+  return_number       1          1
+  number_of_returns   1          1
+  edge_of_flight_line 0          0
+  scan_direction_flag 0          0
+  classification      1          8
+  scan_angle_rank     0          0
+  user_data           0          0
+  point_source_ID     0          3
+number of first returns:        222406
+number of intermediate returns: 0
+number of last returns:         222406
+number of single returns:       222406
+overview over number of returns of given pulse: 222406 0 0 0 0 0 0
+histogram of classification of points:
+             360  unclassified (1)
+           51839  ground (2)
+            1997  low vegetation (3)
+           33440  medium vegetation (4)
+           72571  high vegetation (5)
+           62199  keypoint (8)

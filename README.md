@@ -1,17 +1,17 @@
 # Skills Module Pervasive Urbanism 2024-25
 
 ## Dates
-| Nr   |           Date|                     Module|                                 Topic|                Time|      Location|
-|-----:|---------------| --------------------------|--------------------------------------|--------------------|--------------|
-|     1|     29.10.2024|            Hacking the IoT|                     Coding in Arduino|      09:30 - 12:30 | Gordon Street|
-|     2|     29.10.2024|            Hacking the IoT|                    Sensor & Actuators|      13:00 - 17:30 | Gordon Street|
-|     3|            tbc|            Hacking the IoT| Network Protocols, Python and DataVis|                tbc | Gordon Street|
-|     4|            tbc| Representing city dynamics|                   Creating Pointcouds|                tbc | Gordon Street|
-|     5|            tbc| Representing city dynamics|              Working with Pointclouds|                tbc | Gordon Street|
-|     6|            tbc| Representing city dynamics|                   Rhino & Grasshopper|                tbc | Gordon Street|
-|     7|            tbc|        Datamining the city|                                Python|                tbc | Gordon Street|
-|     8|            tbc|        Datamining the city|           ML Based Sentiment Analysis|                tbc | Gordon Street|
-|     9|            tbc|        Datamining the city|                          Datascraping|                tbc | Gordon Street|
+| Nr   |           Date|                     Module|                                  Topic|                Time|      Location|
+|-----:|---------------| --------------------------|---------------------------------------|--------------------|--------------|
+|     1|     29.10.2024|            Hacking the IoT|                      Coding in Arduino|      09:30 - 12:30 | Gordon Street|
+|     2|     29.10.2024|            Hacking the IoT|                     Sensor & Actuators|      13:00 - 17:30 | Gordon Street|
+|     3|     22.11.2024|            Hacking the IoT| Network Protocols & GIS in Grasshopper|      13:30 - 17:30 | Gordon Street|
+|     4|            tbc| Representing city dynamics|            Python, Creating Pointcouds|                tbc | Gordon Street|
+|     5|            tbc| Representing city dynamics|               Working with Pointclouds|                tbc | Gordon Street|
+|     6|            tbc| Representing city dynamics|                    Rhino & Grasshopper|                tbc | Gordon Street|
+|     7|            tbc|        Datamining the city|                                 Python|                tbc | Gordon Street|
+|     8|            tbc|        Datamining the city|            ML Based Sentiment Analysis|                tbc | Gordon Street|
+|     9|            tbc|        Datamining the city|                           Datascraping|                tbc | Gordon Street|
 
 # SKILLS MODULES
 

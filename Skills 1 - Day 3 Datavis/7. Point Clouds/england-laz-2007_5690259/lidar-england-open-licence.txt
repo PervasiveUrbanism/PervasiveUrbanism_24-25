@@ -1,0 +1,7 @@
+Your use of the English LiDAR data is subject to the conditions of the Open Government Licence for public sector information at http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/ 
+
+Data sourced from: http://environment.data.gov.uk/ds/survey/index.jsp#/survey
+
+Attribution statement: © Environment Agency copyright and/or database right 2015. All rights reserved. 
+
+Link to technical note documentation: https://ea.sharefile.com/share?#/view/saf45292b4f6482b8

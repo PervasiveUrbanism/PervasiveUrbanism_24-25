@@ -33,7 +33,7 @@ Please download and install the following software:
    - **Culebra:** Agent simulation.
    - **Pufferfish:** Transition tools.
    - **Lunchbox:** A versatile toolset.
-   - **Heron:** Map tools
+   - **Heron:** Map tools 
    - **Human:** Display tools
 
 ### Python  
