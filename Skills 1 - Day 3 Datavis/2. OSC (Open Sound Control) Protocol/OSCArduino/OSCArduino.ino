@@ -1,18 +1,19 @@
 
+// the library that allows your arduino to go wireless
 #include <WiFiS3.h>
 
+// variabe for the status
 int status = WL_IDLE_STATUS;
 
+// put in the credits of your wifi (UCL doesn't work, because it has an extra security layer)
+char ssid[] = " ";  
+char pass[] = " ";
 
-char ssid[] = "CommunityFibre10Gb_9E840";  
-char pass[] = "3bFdsg89u@";
+// local port to listen on
+unsigned int localPort = 8000;  
 
-
-
-unsigned int localPort = 8000;  // local port to listen on
-
-char packetBuffer[256];                 //buffer to hold incoming packet
-
+//buffer to hold incoming packet , not nessesary
+char packetBuffer[256];                 
 
 WiFiUDP Udp;
 
