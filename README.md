@@ -6,7 +6,7 @@
 |     1|     29.10.2024|            Hacking the IoT|                      Coding in Arduino|      09:30 - 12:30 | Gordon Street|
 |     2|     29.10.2024|            Hacking the IoT|                     Sensor & Actuators|      13:00 - 17:30 | Gordon Street|
 |     3|     22.11.2024|            Hacking the IoT| Network Protocols & GIS in Grasshopper|      13:30 - 17:30 | Gordon Street|
-|     4|            tbc| Representing city dynamics|            Python, Creating Pointcouds|                tbc | Gordon Street|
+|     4|     29.11.2024| Representing city dynamics|                          Python Primer|      13:30 - 17:30 |          Zoom|
 |     5|            tbc| Representing city dynamics|               Working with Pointclouds|                tbc | Gordon Street|
 |     6|            tbc| Representing city dynamics|                    Rhino & Grasshopper|                tbc | Gordon Street|
 |     7|            tbc|        Datamining the city|                                 Python|                tbc | Gordon Street|

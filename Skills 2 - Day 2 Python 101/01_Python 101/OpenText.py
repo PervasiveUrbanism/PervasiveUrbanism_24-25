@@ -1,1 +1,0 @@
-a= open("Text.txt")
