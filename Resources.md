@@ -56,10 +56,13 @@ We will use Python 3.x, which you can download from the official [Python](https:
  -->
 
 ### Graphics Reference
+ 
+Here are some websites containing reference materials for graphics, for inspiration only ... 
 
-- https://shop.studioinnate.com/product/cyberpunk-asset-pack/
-- https://gmunk.com/OBLIVION-GFX
-- https://www.ryojiikeda.com/
+- [**Asset Library**](https://shop.studioinnate.com/product/cyberpunk-asset-pack/)  
+- [**Gmunk**](https://gmunk.com/OBLIVION-GFX)   
+- [**Ryoji Ikeda**](https://www.ryojiikeda.com/)
+- [**Refik Anadol**](https://refikanadol.com/)
 
 ---
 <a name="Learning"></a>
