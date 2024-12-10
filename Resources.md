@@ -55,6 +55,12 @@ We will use Python 3.x, which you can download from the official [Python](https:
    - [OpenAI API](https://platform.openai.com/docs/api-reference?lang=python). 
  -->
 
+### Graphics Reference
+
+- https://shop.studioinnate.com/product/cyberpunk-asset-pack/
+- https://gmunk.com/OBLIVION-GFX
+- https://www.ryojiikeda.com/
+
 ---
 <a name="Learning"></a>
 # 2. Learning Resources
