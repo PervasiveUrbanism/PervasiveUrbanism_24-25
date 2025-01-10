@@ -761,38 +761,37 @@
 759,BikePoints_846,"Burgess Park Albany Road, Walworth",51.48224,-0.094284
 760,BikePoints_847,"South Bermondsey Station, Bermondsey",51.488067,-0.057774
 761,BikePoints_849,"Crimscott Street, Bermondsey",51.495598,-0.078893
-762,BikePoints_850,"Brandon Street, Walworth",51.489102,-0.091548
-763,BikePoints_851,"The Blue, Bermondsey",51.492221,-0.062513
-764,BikePoints_852,"Coomer Place, West Kensington",51.48357,-0.202038
-765,BikePoints_865,"Leonard Circus , Shoreditch",51.524696,-0.084439
-766,BikePoints_866,"Limburg Road, Clapham Junction",51.461923,-0.165297
-767,BikePoints_88,"Percy Street, Bloomsbury",51.51863,-0.132676
-768,BikePoints_75,"Torrens Street, Angel",51.532199,-0.10548
-769,BikePoints_71,"Newgate Street , St. Paul's",51.515768,-0.099894
-770,BikePoints_341,"Craven Street, Strand",51.508103,-0.126021
-771,BikePoints_361,"Waterloo Station 2, Waterloo",51.503919,-0.113426
-772,BikePoints_374,"Waterloo Station 1, Waterloo",51.504027,-0.113864
-773,BikePoints_154,"Waterloo Station 3, Waterloo",51.503791,-0.112824
-774,BikePoints_583,"Abingdon Green, Westminster",51.49764,-0.125972
-775,BikePoints_659,"Blackfriars Station, St. Paul's",51.511934,-0.103078
-776,BikePoints_273,"Belvedere Road 1, South Bank",51.506133,-0.114686
-777,BikePoints_819,"Belvedere Road 2, South Bank",51.50621,-0.114842
-778,BikePoints_421,"Southwark Station 2, Southwark",51.504044,-0.104778
-779,BikePoints_79,"Arundel Street, Temple",51.511726,-0.113855
-780,BikePoints_762,"Storey's Gate, Westminster",51.500703,-0.129698
-781,BikePoints_815,"Lambeth Palace Road, Waterloo",51.500089,-0.116628
-782,BikePoints_195,"Milroy Walk, South Bank",51.507244,-0.106237
-783,BikePoints_173,"Waterloo Road, South Bank",51.50486,-0.113001
-784,BikePoints_387,"Fire Brigade Pier, Vauxhall",51.493699,-0.121394
-785,BikePoints_792,"Blackfriars Road, Southwark",51.505461,-0.10454
-786,BikePoints_864,"Abbey Orchard Street, Westminster",51.498125,-0.132102
-787,BikePoints_672,"Chicheley Street, South Bank",51.502698,-0.116747
-788,BikePoints_842,"Temple Gardens, Temple",51.510981,-0.108322
-789,BikePoints_818,"Westminster Pier, Westminster",51.501513,-0.123823
-790,BikePoints_229,"Whitehall Place, Strand",51.506543,-0.123179
-791,BikePoints_197,"Stamford Street, South Bank",51.505569,-0.111606
-792,BikePoints_272,"Baylis Road, Waterloo",51.501444,-0.110699
-793,BikePoints_354,"Northumberland Avenue, Strand",51.506767,-0.123702
-794,BikePoints_309,"Embankment (Savoy), Strand",51.509631,-0.119047
-795,BikePoints_857,"Strand, Strand",51.512582,-0.115057
-796,BikePoints_564,"Somerset House, Strand",51.509943,-0.117619
+762,BikePoints_851,"The Blue, Bermondsey",51.492221,-0.062513
+763,BikePoints_852,"Coomer Place, West Kensington",51.48357,-0.202038
+764,BikePoints_865,"Leonard Circus , Shoreditch",51.524696,-0.084439
+765,BikePoints_866,"Limburg Road, Clapham Junction",51.461923,-0.165297
+766,BikePoints_88,"Percy Street, Bloomsbury",51.51863,-0.132676
+767,BikePoints_75,"Torrens Street, Angel",51.532199,-0.10548
+768,BikePoints_71,"Newgate Street , St. Paul's",51.515768,-0.099894
+769,BikePoints_341,"Craven Street, Strand",51.508103,-0.126021
+770,BikePoints_361,"Waterloo Station 2, Waterloo",51.503919,-0.113426
+771,BikePoints_374,"Waterloo Station 1, Waterloo",51.504027,-0.113864
+772,BikePoints_154,"Waterloo Station 3, Waterloo",51.503791,-0.112824
+773,BikePoints_583,"Abingdon Green, Westminster",51.49764,-0.125972
+774,BikePoints_659,"Blackfriars Station, St. Paul's",51.511934,-0.103078
+775,BikePoints_273,"Belvedere Road 1, South Bank",51.506133,-0.114686
+776,BikePoints_819,"Belvedere Road 2, South Bank",51.50621,-0.114842
+777,BikePoints_421,"Southwark Station 2, Southwark",51.504044,-0.104778
+778,BikePoints_79,"Arundel Street, Temple",51.511726,-0.113855
+779,BikePoints_762,"Storey's Gate, Westminster",51.500703,-0.129698
+780,BikePoints_815,"Lambeth Palace Road, Waterloo",51.500089,-0.116628
+781,BikePoints_195,"Milroy Walk, South Bank",51.507244,-0.106237
+782,BikePoints_173,"Waterloo Road, South Bank",51.50486,-0.113001
+783,BikePoints_387,"Fire Brigade Pier, Vauxhall",51.493699,-0.121394
+784,BikePoints_792,"Blackfriars Road, Southwark",51.505461,-0.10454
+785,BikePoints_864,"Abbey Orchard Street, Westminster",51.498125,-0.132102
+786,BikePoints_672,"Chicheley Street, South Bank",51.502698,-0.116747
+787,BikePoints_842,"Temple Gardens, Temple",51.510981,-0.108322
+788,BikePoints_818,"Westminster Pier, Westminster",51.501513,-0.123823
+789,BikePoints_229,"Whitehall Place, Strand",51.506543,-0.123179
+790,BikePoints_197,"Stamford Street, South Bank",51.505569,-0.111606
+791,BikePoints_272,"Baylis Road, Waterloo",51.501444,-0.110699
+792,BikePoints_354,"Northumberland Avenue, Strand",51.506767,-0.123702
+793,BikePoints_309,"Embankment (Savoy), Strand",51.509631,-0.119047
+794,BikePoints_857,"Strand, Strand",51.512582,-0.115057
+795,BikePoints_564,"Somerset House, Strand",51.509943,-0.117619
