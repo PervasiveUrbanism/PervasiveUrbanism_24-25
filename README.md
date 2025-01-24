@@ -8,7 +8,7 @@
 |     3|     22.11.2024|            Hacking the IoT| Network Protocols & GIS in Grasshopper|      13:30 - 17:30 | Gordon Street|
 |     4|     29.11.2024| Representing city dynamics|                          Python Primer|      13:30 - 17:30 |          Zoom|
 |     5|     06.11.2024| Representing city dynamics|                  Datavis & Pointclouds|      14:00 - 17:30 | Gordon Street|
-|     6|            tbc| Representing city dynamics|                    Rhino & Grasshopper|                tbc | Gordon Street|
+|     6|       24.01.25| Representing city dynamics|AI, Grasshopper Culebra, vvvv and OpenCV|     14:00 - 17:30 | Gordon Street|
 |     7|     10.01.2025|        Datamining the city|                    Datamining Python 1|       9:30 - 13:00 |          Zoom|
 |     8|     17.01.2025|        Datamining the city|                    Datamining Python 1|      14:00 - 17:30 | Gordon Street|
 |     9|            tbc|        Datamining the city|                           Datascraping|                tbc | Gordon Street|
