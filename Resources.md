@@ -160,7 +160,7 @@ The [Planning London Datahub](https://www.london.gov.uk/programmes-strategies/pl
 [TFL Open Data](https://tfl.gov.uk/info-for/open-data-users/our-open-data#on-this-page-10) offers traffic-related data for London, including "Busiest times on trains and in stations" and "Live traffic camera images (CCTV)."
 
 ### General Blog with UK Databases
-https://geospatialwandering.wordpress.com/gis-data-sources/#School%20data
+[Blog](https://geospatialwandering.wordpress.com/gis-data-sources/)
 ---
 <a name="Extra"></a>
 ## 4. Additional Software Packages and Web Services  
