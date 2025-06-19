@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" xmlns:r="reflection" Id="FhEA51WnKihOGjx6itlK92" LanguageVersion="2024.6.7" Version="0.128">
+  <NugetDependency Id="PnWgQFYzj3jOFhl4kcsDPF" Location="VL.CoreLib" Version="2024.6.7" />
+  <Patch Id="FuKtiENi1dnQW2ftIjmpW8">
+    <Canvas Id="SWQDAmEAfcJOaYuBCJoXFQ" DefaultCategory="Main" BordersChecked="false" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="QvxrhjCyyS0QHNcz6ub220">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <CategoryReference Kind="Category" Name="Primitive" />
+      </p:NodeReference>
+      <Patch Id="GvuJCS50DjZPay3vnTW2JG">
+        <Canvas Id="RQT0K1layyLLvVm8hVnH0S" CanvasType="Group">
+          <Node Bounds="882,574,90,19" Id="RV9Frv6Hlk7M25FgcN0G6W">
+            <p:NodeReference LastCategoryFullName="Fuse.Compute" LastDependency="VL.Fuse.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ComputeSystem" />
+            </p:NodeReference>
+            <Pin Id="PeIHA1wQfOON958nWc416c" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="TuG3xEhQqslPp7ez1AbO8C" Name="AttributeValues" Kind="InputPin" IsHidden="true" />
+            <Pin Id="NOHBMCqJ5HhLJ4KkCu9pld" Name="External Scheduler" Kind="InputPin" IsHidden="true" />
+            <Pin Id="HvZoDFvaZGwOs37gcH1TPg" Name="Compute Stage" Kind="InputPin" />
+            <Pin Id="JXvIDZk6x7wPqumDTe9yX8" Name="Enabled" Kind="InputPin" />
+            <Pin Id="Vbe5vKBrzkSMuxdZpBfEbX" Name="Output" Kind="OutputPin" />
+            <Pin Id="DJHfNSrIoHCLlQ3HZOjyX0" Name="Has Changed" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="881,371,82,19" Id="G4EhKggeIZLO3lycBY76DN">
+            <p:NodeReference LastCategoryFullName="Fuse.Compute" LastDependency="VL.Fuse.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="ComputeStage" />
+            </p:NodeReference>
+            <Pin Id="VDrV6xsOW0rPxaLDyQXElp" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="QnSKuGHjxFxMidQaH7Sh6I" Name="Index Provider" Kind="InputPin" IsHidden="true" />
+            <Pin Id="QBApH0WRkAgOT2VZsthQKK" Name="Resource" Kind="InputPin" />
+            <Pin Id="E9UtInTHuk5OGulcSFDIXj" Name="name" Kind="InputPin" IsHidden="true" />
+            <Pin Id="SRA2XWlcVWpQJNl712njJa" Name="Dispatch Info" Kind="InputPin" IsHidden="true" />
+            <Pin Id="RtO4QsT6nLjLyWb3KXh2LV" Name="Compute Graph" Kind="InputPin" IsHidden="true" />
+            <Pin Id="O9SWwZPASNHPVQFKK2AUgV" Name="ShaderNode" Kind="InputPin" />
+            <Pin Id="HHHkMeDVXloNm5Gy0r6K6U" Name="Force Recompile" Kind="InputPin" IsHidden="true" />
+            <Pin Id="AKvvaAEFLEQOG8etf3Demm" Name="Write Attributes" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Hp18UyfXHdtPr2O58fcLXG" Name="Iteration Count" Kind="InputPin" IsHidden="true" />
+            <Pin Id="UceBtb91ed8NseD05kDfkg" Name="Enabled" Kind="InputPin" />
+            <Pin Id="KN1wBhk8fywOaFeCb8spaS" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="LvwwHwsDj27OyVajPK9ssI" Name="Last Error" Kind="OutputPin" />
+            <Pin Id="AI1Cl2AJ7lmLYYQXfazXve" Name="Shader Code" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="731,304,132,19" Id="A6fUfaePYUgNPvTJMoXIrY">
+            <p:NodeReference LastCategoryFullName="Fuse.Compute" LastDependency="VL.Fuse.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="StructuredBufferResource" />
+            </p:NodeReference>
+            <Pin Id="V7dy43IAJnLNipgWJGUGUi" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="GP9mV0NJZ8QMXWQLzg6egZ" Name="Name" Kind="InputPin" IsHidden="true" />
+            <Pin Id="J5279fHiiOUPbYn7BkdOiX" Name="Element Count" Kind="InputPin" />
+            <Pin Id="Ep8nJL4TfvfOCHm1XNkhkr" Name="Output" Kind="StateOutputPin" />
+            <Pin Id="AMVhe81wd8CMfvZDHEIe7e" Name="buffer" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="PPH5OUolRdrM273qVQh6cZ" Name="Stride" Kind="OutputPin" IsHidden="true" />
+          </Node>
+          <Pad Id="HOB5FPY2TiSQP86EsrJGNp" Comment="Element Count" Bounds="733,268,63,15" ShowValueBox="true" isIOBox="true" Value="100000">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Integer32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="919,203,30,19" Id="JSkkHOk1rpONwSvL5NVRpe">
+            <p:NodeReference LastCategoryFullName="Fuse.Value" LastDependency="VL.Fuse.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Set" />
+            </p:NodeReference>
+            <Pin Id="K3JOa5Uo99sOj0xf2kmODh" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="KX3hWTYvDW8LvhpkDoxhxw" Name="The Target" Kind="InputPin" />
+            <Pin Id="TxfovnMdVJSMatJfpjYTL0" Name="The Source" Kind="InputPin" />
+            <Pin Id="CRZdcpG6BWFM78opPuxar6" Name="Void" Kind="OutputPin" />
+            <Pin Id="UTNksWPwUiTMrP27ftb7DR" Name="Value" Kind="OutputPin" IsHidden="true" />
+          </Node>
+          <Node Bounds="854,133,53,19" Id="FOOJWAygeXgPtA8CWGkpej">
+            <p:NodeReference LastCategoryFullName="Fuse.Particles.Attribute" LastDependency="VL.Fuse.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Position (Particle)" />
+            </p:NodeReference>
+            <Pin Id="UHWYNCBf7BKQJGqhgX7eJP" Name="graph" Kind="OutputPin" />
+            <Pin Id="Bd7Mnok4u7HL4PhBR36puh" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Cias9ny3Fq9PLOI61r6s0o" Name="Instance" Kind="InputPin" IsHidden="true" />
+            <Pin Id="HwdmWiM8kGlNlaLZeI0Mmh" Name="Semantic ID" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Agaodck8vSPL7ymYltfsdB" Name="Name" Kind="OutputPin" IsHidden="true" />
+          </Node>
+          <Node Bounds="944,177,105,19" Id="UutOx06i1Q9LFd2LtHu3vo">
+            <p:NodeReference LastCategoryFullName="Fuse.Compute.Random" LastDependency="VL.Fuse.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="SphereRandom (Compute)" />
+            </p:NodeReference>
+            <Pin Id="AnwUNmRvZ9FLrROSntLDjz" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="QXJKG1XIHdbMafyGatS1IC" Name="ID" Kind="InputPin" />
+            <Pin Id="BF3KAlJx8D8MUre8tsahMN" Name="Radius" Kind="InputPin" />
+            <Pin Id="RXYCXL9dFMDQPoIxQubDJu" Name="Volume" Kind="InputPin" />
+            <Pin Id="MAFUBLqAhBNOgzDWLjDLgB" Name="Center" Kind="InputPin" />
+            <Pin Id="F8avhp9AaemNQg5cF71jXM" Name="Volume Distribution" Kind="InputPin" IsHidden="true" />
+            <Pin Id="FPIr44dHh0QLq5A3uRkrWO" Name="Constant" Kind="InputPin" />
+            <Pin Id="RBNiiif109nMSU91rzsypF" Name="Latitude Start" Kind="InputPin" IsHidden="true" />
+            <Pin Id="CLhSqXXiNhUNapGN9GrHBN" Name="Longitude Start" Kind="InputPin" IsHidden="true" />
+            <Pin Id="JZbMeRR4fdXQTyVmCfM79x" Name="Latitude End" Kind="InputPin" IsHidden="true" />
+            <Pin Id="OU4jEVg38yTLV9iP9d14aI" Name="Longitude End" Kind="InputPin" IsHidden="true" />
+            <Pin Id="RhBFb8gPdW7NGK63o2KIk3" Name="Helper Color" Kind="InputPin" IsHidden="true" />
+            <Pin Id="T6NQ7DhSgUQPHdohL02jhW" Name="Helper Enabled" Kind="InputPin" />
+            <Pin Id="CLMJCevjCREObABEKu7jhM" Name="Output" Kind="OutputPin" />
+          </Node>
+          <Pad Id="Cl53TLnIj4fMl1MLY4NsmD" Bounds="973,580,361,166" ShowValueBox="true" isIOBox="true" Value="Think of &quot;ComputeSystem&quot; as the manager that runs all your compute logic.&#xD;&#xA;&#xD;&#xA;It:&#xD;&#xA;- Allocates buffers (memory on GPU)&#xD;&#xA;- Dispatches your code (how many times it runs)&#xD;&#xA;- Holds many ComputeStages&#xD;&#xA;- Can be triggered, paused, reset&#xD;&#xA;- Orchestrates timing, resources, and execution order">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="Py5d3qA5awPN2N1WFvplnK" Bounds="977,378,340,151" ShowValueBox="true" isIOBox="true" Value="Think of &quot;ComputeStage&quot; as one single &quot;frame of logic&quot; that processes data on the GPU.&#xD;&#xA;&#xD;&#xA;You use it to define what happens to each item in a buffer (e.g. move particles, apply force).&#xD;&#xA;&#xD;&#xA;ComputeStage doesn’t manage dispatch or buffer allocation. It just describes what happens to your data.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="LGKLN9HRdPvLpOOJVQOhKA" Comment="" Bounds="415,401,190,132" ShowValueBox="true" isIOBox="true" />
+          <Pad Id="H0iS4WtXtiBLKvXmO3j29s" Bounds="1116,136,263,97" ShowValueBox="true" isIOBox="true" Value="The node &quot;Position&quot; is called a semantic. In this specific case, you read it: &quot;Take 3D vectors that describe a sphere and set the position&quot;.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="G4YFHoL81JvPMr5CIO0jrG" Bounds="663,380,179,96" ShowValueBox="true" isIOBox="true" Value="! You might encounter red outlines when you patch it fresh. Press &quot;F9&quot; to restart the patch and connect moder nodes!">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="CLTqvTmsxZdNyySy9vrPXb" Bounds="664,482,179,96" ShowValueBox="true" isIOBox="true" Value="! Compute Stage does not show the middle pin automatically. &#xD;&#xA;=&gt; Right click &gt; Configure &gt; Show Resources">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="621,1137,225,19" Id="C0OYkqAEsxYMsNkFFzWUWI">
+            <p:NodeReference LastCategoryFullName="Fuse.Draw" LastDependency="VL.Fuse.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="HelpWindow (3D View)" />
+            </p:NodeReference>
+            <Pin Id="IiB0E09sn0gM0rT7BEpWTA" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="SbZ2Q1lFyxSMLQdCIs71QF" Name="Bounds" Kind="InputPin" DefaultValue="1079, 260, 369, 307" />
+            <Pin Id="D0GAnwiy7hPMXckMQPOolW" Name="Scene" Kind="InputPin" />
+            <Pin Id="KoP7qYkamujMQ1OcJ6akYm" Name="Camera" Kind="InputPin" />
+            <Pin Id="MPjhXzHEtrAN5i1GnBfPDu" Name="PostFX Enabled" Kind="InputPin" />
+            <Pin Id="KSA0Q4v99BOO0f4Gqx3JWV" Name="Clear Color" Kind="InputPin" />
+            <Pin Id="A5Ci4Hh7NC5NkBlQeAHfi4" Name="DoF Enabled" Kind="InputPin" />
+            <Pin Id="MMmPHNGArPBMYXtbn1vq2A" Name="Auto Focus" Kind="InputPin" />
+            <Pin Id="Njut0E8M7xiPvegT1oBdn6" Name="Show Guide" Kind="InputPin" />
+            <Pin Id="LkqkReZg53EQGddKQzCrrM" Name="Stage Enabled" Kind="InputPin" />
+            <Pin Id="KY8HWQDhvu7LzkMq6x1Zsu" Name="LightPreset" Kind="InputPin" />
+            <Pin Id="ON2uHOuUMLsLZ2VW28JvpR" Name="Background Enabled" Kind="InputPin" />
+            <Pin Id="Ry8HHzRwb7jLCKH8CyGxfj" Name="Title" Kind="InputPin" IsHidden="true" />
+            <Pin Id="PfXNiO0tqfKL4QxgxHNvDU" Name="Enabled" Kind="InputPin" />
+            <Pin Id="DCdggBRRIkNPCa7qW9v71b" Name="Output" Kind="OutputPin" />
+            <Pin Id="IRWnAYmNEPYN6Lok1DWmdU" Name="Game Window" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="654,919,105,19" Id="CjsYibC8jN5M1CfivoCYHD">
+            <p:NodeReference LastCategoryFullName="Fuse.Draw" LastDependency="VL.Fuse.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Sprite (Effect)" />
+            </p:NodeReference>
+            <Pin Id="OnMCapmjeErPNZxMg97o1s" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="CwaYjLVqCkpQPTitpqcjy5" Name="Skip" Kind="InputPin" />
+            <Pin Id="AhVU7Rbf5MpLSGJZYxjq1n" Name="Color" Kind="InputPin" />
+            <Pin Id="RO4aG5pwUncLi3lOMcdERd" Name="Position" Kind="InputPin" />
+            <Pin Id="R3tcQxIGTLlQMmvu8wztZ9" Name="Size" Kind="InputPin" />
+            <Pin Id="C3Ada60SdWVLPbzmN99Yf0" Name="Size2D" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Qbe7oPpkuvkNvXMWcGdxWK" Name="Offset" Kind="InputPin" IsHidden="true" />
+            <Pin Id="B7EfLly0ebrLI9FsZTENwH" Name="Rotation" Kind="InputPin" IsHidden="true" />
+            <Pin Id="FEzQ0pWLZ1gMj7mKmDhvhk" Name="Normal" Kind="InputPin" IsHidden="true" />
+            <Pin Id="FAaJzYlBwY0OsKreKNWSeb" Name="Draw Dots" Kind="InputPin" />
+            <Pin Id="Qr8OTTeaSzuPsGRP00hwlY" Name="AlphaCutOff" Kind="InputPin" IsHidden="true" />
+            <Pin Id="UlJjzuShJvuPL1hSGDvk3s" Name="Color Vertex" Kind="InputPin" IsHidden="true" />
+            <Pin Id="LD4WC8OBUMwNu8l4NLk6n4" Name="Enable" Kind="InputPin" />
+            <Pin Id="O12dsTizISrMg8s4PXk6rO" Name="Output" Kind="OutputPin" />
+            <Pin Id="AjZsRP6FBvFMavM3f91BaI" Name="Shader Code" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="OACbw2PWj0oOP016VAZT7d" Name="Error Message" Kind="OutputPin" IsHidden="true" />
+          </Node>
+          <Node Bounds="642,982,145,19" Id="NByKTfB9ewvM9hS8deusPs">
+            <p:NodeReference LastCategoryFullName="Fuse.Compute.Draw" LastDependency="VL.Fuse.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="BufferToRenderEntity" />
+            </p:NodeReference>
+            <Pin Id="GXNTEKzOh9APJexjtXAKH6" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="UjinHxDtzCRNeoNk0sT0WI" Name="Resource" Kind="InputPin" />
+            <Pin Id="CqFKvHEV5URNEBAKOkOD5j" Name="Mesh" Kind="InputPin" IsHidden="true" />
+            <Pin Id="N5XXn8xtWa7MTn0o8ycvLG" Name="Transformation" Kind="InputPin" />
+            <Pin Id="J6QQtD6lrZ9MnxvKGIO1dD" Name="Draw Shader" Kind="InputPin" />
+            <Pin Id="BTGWiMZmFDZOd3Sv9BWXd8" Name="Render Stage" Kind="InputPin" />
+            <Pin Id="EOXSZnA4AXXPCjM6NO2Icw" Name="Blend State" Kind="InputPin" />
+            <Pin Id="SJqd55brEydPus43gHBfqL" Name="Rasterizer State" Kind="InputPin" IsHidden="true" />
+            <Pin Id="KC6b65z446FPGtNk0c9swd" Name="Depth Stencil State" Kind="InputPin" />
+            <Pin Id="HQQKYnhm3BzNkHb6KZq11S" Name="Indices" Kind="InputPin" IsHidden="true" />
+            <Pin Id="H3WC7NeS7IAQYxSUDRPpwl" Name="Topology" Kind="InputPin" IsHidden="true" />
+            <Pin Id="U0pQjTdYUOjPlBAtqoCAEP" Name="Bounding Box" Kind="InputPin" />
+            <Pin Id="VyI3OnRN5bKMqPFHnyu9QI" Name="Enabled" Kind="InputPin" />
+            <Pin Id="M83YSwQr5ZxPiO4apkmVxk" Name="Entity" Kind="OutputPin" />
+            <Pin Id="FCBwoOs7svQNmkANJm5xsi" Name="Renderer" Kind="OutputPin" />
+          </Node>
+          <ControlPoint Id="G17qxoWucXXNwnpMyJIlFF" Bounds="645,378" />
+          <Pad Id="PF6neOAh7VLNeWCMVuP94y" Bounds="-7,-102,943,103" ShowValueBox="true" isIOBox="true" Value="01 Simple Compute System">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">50</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="LnJkO6wrnLUL4uzEbJdoqF" Bounds="12,521,374,574" ShowValueBox="true" isIOBox="true" Value="A ComputeSystem contains ComputeShader nodes and packages them in an easy way. &#xD;&#xA;&#xD;&#xA;A ComputeShader does the actual math on the GPU.  A ComputeSystem runs those shaders in order, manages buffers, and makes the simulation work. &#xD;&#xA;&#xD;&#xA;A ComputeSystem is a smart loop on the GPU that runs all the steps needed to update and animate lots of data — like particles — in real time.&#xD;&#xA;&#xD;&#xA;A buffer is essentially a list of data that lives on the graphics card (GPU). It's used to store information like positions, colors, velocities, or any other kind of structured data needed for GPU processing.&#xD;&#xA;&#xD;&#xA;There are two main types of buffers:&#xD;&#xA;&#xD;&#xA;Unstructured Buffers (also called raw buffers):&#xD;&#xA;These are just a continuous block of memory without any defined structure. You can store any kind of data in them, but you need to manually manage how it's read and written—like handling raw bytes.&#xD;&#xA;&#xD;&#xA;Structured Buffers:&#xD;&#xA;These store a list of structured data types—like a list of vectors, colors, or custom structs (e.g. a particle with position, velocity, and size). The GPU knows the layout of each item, which makes it easier to read and write specific values.&#xD;&#xA;">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Overlay Id="N8QeNrn4yDyOzG0Pp5xG0J" Bounds="401,249,941,539" />
+          <Overlay Id="Q8uyugy8b2ENSh5KvpLdyT" Bounds="847,120,545,109" />
+          <Overlay Id="UcSQZ4vNns4LWPS7xiGbyn" Bounds="401,807,942,207" />
+          <Overlay Id="U9Ku0ECXdMAODs0hNhJRXH" Bounds="595,1052,325,122" />
+          <Pad Id="VtIKvzdxRqwOmLLpeKb47L" Bounds="395,235,180,19" ShowValueBox="true" isIOBox="true" Value="Compute System">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="T95vW9AVr5bORWDaJIPzII" Bounds="841,107,180,19" ShowValueBox="true" isIOBox="true" Value="Set Position">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="GUxLAu0126LMDCXGhG10cs" Bounds="395,796,180,19" ShowValueBox="true" isIOBox="true" Value="Draw Spheres">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="S17kTxUrtIdNtKK0p3DBCA" Bounds="585,1204,180,19" ShowValueBox="true" isIOBox="true" Value="Render Window">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="SlotqrrdVnhM6Csrs33uBX" Bounds="400,824,221,188" ShowValueBox="true" isIOBox="true" Value="The node BufferToRenderEntity takes the position data from a buffer and generates a point mesh.&#xD;&#xA;&#xD;&#xA;However, you still need to define how these points should be rendered. In this case, a Sprite is used—this is a GPU effect that displays each point as a 2D image (a pixel-based graphic), not as a true 3D object.&#xD;&#xA;&#xD;&#xA;The nodes below are a few alternatives: One that attaches a &quot;real&quot; mesh geometry to the point. And another one that renders a simple pixel. ">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">5</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="412,958,66,19" Id="AqFuDcczQbVPIEjmttJAtU">
+            <p:NodeReference LastCategoryFullName="Fuse.Draw" LastDependency="VL.Fuse.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Fuse" />
+              <CategoryReference Kind="Category" Name="Draw" />
+              <Choice Kind="ProcessAppFlag" Name="MeshEntity" />
+            </p:NodeReference>
+            <Pin Id="BDRgKy7JcqCLDdoMaKycbn" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="RqB1ADAktv1LAWdbZBDIGW" Name="Transformation" Kind="InputPin" />
+            <Pin Id="Sc4VKHyYsEdNOuB5JaCaeq" Name="Input" Kind="InputPin" />
+            <Pin Id="OMx0342Cg0lQdTHgRPsPwD" Name="Render Stage" Kind="InputPin" IsHidden="true" />
+            <Pin Id="N7HUwdTHwRWNF2RGEcDQGK" Name="Blend State" Kind="InputPin" IsHidden="true" />
+            <Pin Id="AfMWFhJLQjvNYaPpVeFBtv" Name="Rasterizer State" Kind="InputPin" IsHidden="true" />
+            <Pin Id="AshxIAlRlvLLyDVPIHR0Lm" Name="Depth Stencil State" Kind="InputPin" IsHidden="true" />
+            <Pin Id="U4IPeC8yPdYMlDawqkIWwp" Name="Mesh" Kind="InputPin" />
+            <Pin Id="CFBUWrtrl2CNC39VLr7FSe" Name="Topology" Kind="InputPin" IsHidden="true" />
+            <Pin Id="AbljFmTwaqCLZkEfYcBga4" Name="Enabled" Kind="InputPin" />
+            <Pin Id="KYJt3XhepAcMAaPTEavcnz" Name="Entity" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="511,958,65,19" Id="OeIgfuQaGUjQc1cqiJCIrQ">
+            <p:NodeReference LastCategoryFullName="Fuse.Draw" LastDependency="VL.Fuse.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Fuse" />
+              <CategoryReference Kind="Category" Name="Draw" />
+              <Choice Kind="ProcessAppFlag" Name="Point (Effect)" />
+            </p:NodeReference>
+            <Pin Id="EdlB43viGXjMGiCCoONwlE" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="LMdnfmxd4DGMgRbInYtesN" Name="Color" Kind="InputPin" />
+            <Pin Id="Iu87g76keAyOYKHsJy3Fwt" Name="Skip" Kind="InputPin" />
+            <Pin Id="USBEnzgV8jiQG4OZoIWQE6" Name="Position" Kind="InputPin" />
+            <Pin Id="C7QhFXdi3PxN3AVR1JsuvO" Name="Normal" Kind="InputPin" />
+            <Pin Id="F5KjXMRrO8VNMPQi5Ub0XZ" Name="Output" Kind="OutputPin" />
+            <Pin Id="IZ0Nk1orTYmLagnMvN3qDN" Name="Shader Code" Kind="OutputPin" IsHidden="true" />
+            <Pin Id="JPwSuxXhi1eN60umrajEbm" Name="Error Message" Kind="OutputPin" IsHidden="true" />
+          </Node>
+          <Pad Id="SsgKoFqiNVUNZp4Ygol1Uz" Comment="PostFX Enabled" Bounds="683,1093,35,35" ShowValueBox="true" isIOBox="true" Value="False">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="R4sgiQY3cnWMH04ddA7cLa" Comment="Radius" Bounds="930,136,35,15" ShowValueBox="true" isIOBox="true" Value="0.5">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="694,868,53,19" Id="KrEseWKBw2UMIvezdznLcD">
+            <p:NodeReference LastCategoryFullName="Fuse.Particles.Attribute" LastDependency="VL.Fuse.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <Choice Kind="ProcessAppFlag" Name="Position (Particle)" />
+            </p:NodeReference>
+            <Pin Id="DAWmRPico1tNqvx0FGjxRd" Name="graph" Kind="OutputPin" />
+            <Pin Id="N4qY0WOdBEWNc9oSsdj0f6" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="Cn3fjj15hquOiRO8778JU9" Name="Instance" Kind="InputPin" IsHidden="true" />
+            <Pin Id="StBNbfC7OrDQJIk7gtkA4a" Name="Semantic ID" Kind="InputPin" IsHidden="true" />
+            <Pin Id="R26hDbTD53cObwg1fIH712" Name="Name" Kind="OutputPin" IsHidden="true" />
+          </Node>
+          <Pad Id="Fbq1JH9mYWMOVbIuq4goR4" Comment="Constant" Bounds="1026,136,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="GGYOHTcuLesN5Ahpb1dY5k" Comment="Size" Bounds="716,896,35,15" ShowValueBox="true" isIOBox="true" Value="0.002">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="Float32" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:precision p:Type="Int32">3</p:precision>
+              <p:stepsize p:Type="Single">0.01</p:stepsize>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="VoGfyKEyQ8SNPW0Sayr0K5" Bounds="784,973,157,37" ShowValueBox="true" isIOBox="true" Value="Right click &gt; Configure and expose the pins &quot;Blend State&quot;, &quot;Render State&quot; and &quot;Depth Stencil&quot;">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">5</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Node Bounds="837,891,54,19" Id="CldZXmjPrWLMQfPbFqT184">
+            <p:NodeReference LastCategoryFullName="Stride.API.Graphics.BlendStateDescription" LastDependency="VL.Stride.Runtime.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="BlendStateDescription" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="Additive" />
+            </p:NodeReference>
+            <Pin Id="BpdKM8E9eQRL8dHRPpNE1O" Name="Additive" Kind="OutputPin" />
+          </Node>
+          <Node Bounds="837,915,40,19" Id="Q7wmXby96TtPewHEi7cbRh">
+            <p:NodeReference LastCategoryFullName="Stride.API.Graphics.DepthStencilStateDescription" LastDependency="VL.Stride.Runtime.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="ClassType" Name="DepthStencilStateDescription" NeedsToBeDirectParent="true" />
+              <Choice Kind="OperationCallFlag" Name="None" />
+            </p:NodeReference>
+            <Pin Id="N4KZBqzKoqhPZ6ifYb5s86" Name="None" Kind="OutputPin" />
+          </Node>
+          <Pad Id="L09I0STSM8vLAlgb3X9XTy" Comment="Render Stage" Bounds="839,878,135,15" ShowValueBox="true" isIOBox="true" Value="Transparent">
+            <p:TypeAnnotation LastCategoryFullName="VL.Stride.Rendering" LastDependency="VL.Stride.vl">
+              <Choice Kind="TypeFlag" Name="DrawerRenderStage" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Pad Id="HWZwhEwPjB9NiKlrSIKtNa" Comment="Draw Dots" Bounds="783,855,35,35" ShowValueBox="true" isIOBox="true" Value="True">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="Boolean" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Toggle</p:buttonmode>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="JGkLsc3xj05NzeXLhVGKGb" Comment="io" Bounds="666,832,136,15" ShowValueBox="true" isIOBox="true" Value="0.06505799, 0.3739738, 0.9294, 0.1">
+            <p:TypeAnnotation LastCategoryFullName="Color" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="ImmutableTypeFlag" Name="RGBA" />
+            </p:TypeAnnotation>
+          </Pad>
+          <Node Bounds="664,867,28,19" Id="O0WEXmH1pDbM7k43xmEydE">
+            <p:NodeReference LastCategoryFullName="Fuse.Value.Conversion" LastDependency="VL.Fuse.vl">
+              <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+              <CategoryReference Kind="Category" Name="Conversion" NeedsToBeDirectParent="true">
+                <p:OuterCategoryReference Kind="Category" Name="Value" NeedsToBeDirectParent="true" />
+              </CategoryReference>
+              <Choice Kind="ProcessAppFlag" Name="To" />
+            </p:NodeReference>
+            <Pin Id="SbD8utco2pfOwy5S1AbsWf" Name="Node Context" Kind="InputPin" IsHidden="true" />
+            <Pin Id="J612F1YSqxyPNudpOUzuA6" Name="x" Kind="InputPin" />
+            <Pin Id="P30C9VhuY4cL7oraEOQmwf" Name="Output" Kind="OutputPin" />
+            <Pin Id="DDNHCub8EI4PyevxLkQGAx" Name="Conversion" Kind="OutputPin" />
+          </Node>
+          <ControlPoint Id="JdFQqgFd4vZPpEC8N9kB78" Bounds="781,905" />
+          <Pad Id="GGWf4FtVCiAPfXJbKCjovs" Bounds="1051,879,120,19" ShowValueBox="true" isIOBox="true" Value="These settings give a blend effect.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">5</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+          <Pad Id="Fg2lQcaQhbbN9urj75t84y" Bounds="12,37,371,480" ShowValueBox="true" isIOBox="true" Value="The graphics card (GPU) works very differently from the processor (CPU). While the CPU executes one instruction after another in sequence, the GPU can handle thousands of instructions at the same time. This parallel processing makes the GPU especially fast for certain tasks—like simulating particles—where many similar operations are performed on large amounts of data.&#xD;&#xA;&#xD;&#xA;Programs that run on the GPU are called shaders, such as vertex shaders or pixel shaders. Traditionally, these were limited to visual tasks like manipulating geometry or coloring pixels. But modern graphics cards have expanded their capabilities by introducing compute shaders—a more flexible type of shader that can perform general-purpose calculations, not just graphics.&#xD;&#xA;&#xD;&#xA;This development is what makes compute shaders so powerful: they allow us to program massive simulations and data processing workflows directly on the GPU. That’s also why many machine learning training programs now rely heavily on GPU computation.&#xD;&#xA;&#xD;&#xA;In short, compute shaders open the door to running large-scale, high-performance tasks that go far beyond traditional rendering.">
+            <p:TypeAnnotation LastCategoryFullName="Primitive" LastDependency="VL.CoreLib.vl">
+              <Choice Kind="TypeFlag" Name="String" />
+            </p:TypeAnnotation>
+            <p:ValueBoxSettings>
+              <p:fontsize p:Type="Int32">9</p:fontsize>
+              <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
+            </p:ValueBoxSettings>
+          </Pad>
+        </Canvas>
+        <Patch Id="IJl8Y4fXgbJLfh523u8r4l" Name="Create" />
+        <Patch Id="RzGV1KmnNi3OMxH2gHag9q" Name="Update" />
+        <ProcessDefinition Id="L3xWuEcyGACP4gr6BDZyOI">
+          <Fragment Id="M2UeUZr874eMSMhxj3k6oG" Patch="IJl8Y4fXgbJLfh523u8r4l" Enabled="true" />
+          <Fragment Id="RNLY60Pj2bKOeBka6jV9Ko" Patch="RzGV1KmnNi3OMxH2gHag9q" Enabled="true" />
+        </ProcessDefinition>
+        <Link Id="LbHGIb5IVtYL3gCezTTer7" Ids="Ep8nJL4TfvfOCHm1XNkhkr,QBApH0WRkAgOT2VZsthQKK" />
+        <Link Id="HGbwai2ZLqQPT4RgWDseJO" Ids="HOB5FPY2TiSQP86EsrJGNp,J5279fHiiOUPbYn7BkdOiX" />
+        <Link Id="HfRn9zMRMCEL4XEoI2b6Z2" Ids="KN1wBhk8fywOaFeCb8spaS,HvZoDFvaZGwOs37gcH1TPg" />
+        <Link Id="DhsgSN7U4rSPmNk4fM3KEM" Ids="CRZdcpG6BWFM78opPuxar6,O9SWwZPASNHPVQFKK2AUgV" />
+        <Link Id="Gv3awJjD87cMiENWxzxf11" Ids="UHWYNCBf7BKQJGqhgX7eJP,KX3hWTYvDW8LvhpkDoxhxw" />
+        <Link Id="IscNgMLCy5VPxsj6AxRJ8z" Ids="CLMJCevjCREObABEKu7jhM,TxfovnMdVJSMatJfpjYTL0" />
+        <Link Id="QD9bw90SMGXMRLE2tENsr1" Ids="Ep8nJL4TfvfOCHm1XNkhkr,LGKLN9HRdPvLpOOJVQOhKA" />
+        <Link Id="Jj7mOth6GdDNA58SKvMuIQ" Ids="Ep8nJL4TfvfOCHm1XNkhkr,G17qxoWucXXNwnpMyJIlFF,UjinHxDtzCRNeoNk0sT0WI" />
+        <Link Id="MLKb9Jq351BM8ByUWyxY3f" Ids="O12dsTizISrMg8s4PXk6rO,J6QQtD6lrZ9MnxvKGIO1dD" />
+        <Link Id="BM0PtfV8NPnQKKzW2gyQDr" Ids="M83YSwQr5ZxPiO4apkmVxk,D0GAnwiy7hPMXckMQPOolW" />
+        <Link Id="MXhZWq8aitxOmPsqnWpV53" Ids="SsgKoFqiNVUNZp4Ygol1Uz,MPjhXzHEtrAN5i1GnBfPDu" />
+        <Link Id="JIWYsJ7bHWmOYtdQsgRNQl" Ids="R4sgiQY3cnWMH04ddA7cLa,BF3KAlJx8D8MUre8tsahMN" />
+        <Link Id="Kl9Q6bLzerqLEvC3LXrgYU" Ids="DAWmRPico1tNqvx0FGjxRd,RO4aG5pwUncLi3lOMcdERd" />
+        <Link Id="Ot8hqC6pwB0MefRWmKZL6q" Ids="Fbq1JH9mYWMOVbIuq4goR4,FPIr44dHh0QLq5A3uRkrWO" />
+        <Link Id="IKvOiq3uDILMAKQ4vQupmi" Ids="GGYOHTcuLesN5Ahpb1dY5k,R3tcQxIGTLlQMmvu8wztZ9" />
+        <Link Id="R3DDEu1Y1ZUMbR82XWCaQF" Ids="N4KZBqzKoqhPZ6ifYb5s86,KC6b65z446FPGtNk0c9swd" />
+        <Link Id="Hajl8zwsAbEPVVzHIR28qV" Ids="L09I0STSM8vLAlgb3X9XTy,BTGWiMZmFDZOd3Sv9BWXd8" />
+        <Link Id="HLsdcO7zgg3NA6EfQBueCl" Ids="BpdKM8E9eQRL8dHRPpNE1O,EOXSZnA4AXXPCjM6NO2Icw" />
+        <Link Id="L8iP1DtDJEVP3V2nXZIGPE" Ids="HWZwhEwPjB9NiKlrSIKtNa,JdFQqgFd4vZPpEC8N9kB78,FAaJzYlBwY0OsKreKNWSeb" />
+        <Link Id="VKxmRgFs52gO2SK7tBhS7N" Ids="JGkLsc3xj05NzeXLhVGKGb,J612F1YSqxyPNudpOUzuA6" />
+        <Link Id="AhZqXEbPgRzN1nJ9U0QGom" Ids="P30C9VhuY4cL7oraEOQmwf,AhVU7Rbf5MpLSGJZYxjq1n" />
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="S4N0bbl2JhjQBtnQaExpts" Location="VL.Stride" Version="2024.6.7" />
+  <NugetDependency Id="LEfSW1Z7EGnQBhdpA1NFFo" Location="VL.Fuse" Version="1.0.3-beta06" />
+  <NugetDependency Id="EhKifDMOWymORXaon3m4HY" Location="VL.Stride.Runtime" Version="2024.6.7" />
+  <NugetDependency Id="ORRf5U0B3H6LBkis1EOv7E" Location="VL.Stride.Windows" Version="2024.6.7" />
+</Document>
